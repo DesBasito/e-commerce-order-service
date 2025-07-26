@@ -19,7 +19,7 @@ import lombok.experimental.FieldDefaults;
 @NoArgsConstructor
 @Accessors(chain = true)
 @FieldDefaults(level = AccessLevel.PRIVATE)
-@Table(name = "customer_line")
+@Table(name = "order_line")
 public class OrderLine {
 
     @Id

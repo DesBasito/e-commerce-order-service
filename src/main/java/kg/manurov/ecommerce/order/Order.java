@@ -23,6 +23,7 @@ import java.util.List;
 @EntityListeners(AuditingEntityListener.class)
 @FieldDefaults(level = AccessLevel.PRIVATE)
 @Validated
+@Table(name = "customer_order")
 public class Order {
 
     @Id
