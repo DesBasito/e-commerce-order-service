@@ -212,7 +212,7 @@ GET /api/v1/orders/{order-id}
   "paymentMethod": "CREDIT_CARD",
   "customerId": "507f1f77bcf86cd799439011"
 }
-```
+``` 
 
 ### Получение Order Lines по ID заказа
 ```http
